@@ -1,0 +1,11 @@
+package com.example.gerenciador.produto.respository;
+
+import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.gerenciador.produto.model.Produto;
+
+public interface ProdutoRepository extends JpaRepository<Produto, UUID> {
+	
+}
