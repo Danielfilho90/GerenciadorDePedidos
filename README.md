@@ -58,11 +58,7 @@ Endpoints públicos:
 
 
 
-git clone https://github.com/danielfilho90/gerenciador-de-pedidos.git
-
-
-
-
+git clone https://github.com/Danielfilho90/GerenciadorDePedidos.git
 
 cd gerenciador-de-pedidos
 
