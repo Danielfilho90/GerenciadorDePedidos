@@ -42,6 +42,7 @@ public class PedidoService {
         }
 
         pedido.setValorTotal(total);
+        pedido.setStatus(StatusPedido.PENDENTE);
         return pedidoRepo.save(pedido);
     }
 

@@ -11,7 +11,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 @Component
 public class JwtUtil {
 
-    private final String SECRET_KEY = "sua-chave-secreta";
+    private final String SECRET_KEY = "gerenciador";
 
     public String generateToken(UserDetails userDetails) {
         return Jwts.builder()
